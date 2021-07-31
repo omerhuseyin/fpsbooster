@@ -32,5 +32,23 @@ namespace fpsbooster.Forms
         private void btnGameOptimization_Click(object sender, EventArgs e)
         {
         }
+
+        private void btnCloseDefender_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnLowSystemFix_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnFullscreenFix_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnWindowsOptimization_Click(object sender, EventArgs e)
+        {
+        }
+
+     
     }
 }

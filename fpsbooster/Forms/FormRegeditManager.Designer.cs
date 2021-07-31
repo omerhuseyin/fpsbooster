@@ -46,6 +46,22 @@ namespace fpsbooster.Forms
             this.btnGameOptimization = new FontAwesome.Sharp.IconButton();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.bunifuGradientPanel5 = new Bunifu.UI.WinForms.BunifuGradientPanel();
+            this.ıconButton1 = new FontAwesome.Sharp.IconButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.bunifuGradientPanel6 = new Bunifu.UI.WinForms.BunifuGradientPanel();
+            this.btnLowSystemFix = new FontAwesome.Sharp.IconButton();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.bunifuGradientPanel7 = new Bunifu.UI.WinForms.BunifuGradientPanel();
+            this.btnFullscreenFix = new FontAwesome.Sharp.IconButton();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.bunifuGradientPanel8 = new Bunifu.UI.WinForms.BunifuGradientPanel();
+            this.btnWindowsOptimization = new FontAwesome.Sharp.IconButton();
+            this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.bunifuGradientPanel2.SuspendLayout();
@@ -54,6 +70,14 @@ namespace fpsbooster.Forms
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.bunifuGradientPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.bunifuGradientPanel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.bunifuGradientPanel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.bunifuGradientPanel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.bunifuGradientPanel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuGradientPanel1
@@ -65,10 +89,10 @@ namespace fpsbooster.Forms
             this.bunifuGradientPanel1.Controls.Add(this.btnDelayReducation);
             this.bunifuGradientPanel1.Controls.Add(this.label1);
             this.bunifuGradientPanel1.Controls.Add(this.pictureBox1);
-            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(92)))), ((int)(((byte)(188)))));
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.DeepPink;
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.DodgerBlue;
-            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(60)))), ((int)(((byte)(212)))));
+            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(43, 57);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
@@ -77,7 +101,10 @@ namespace fpsbooster.Forms
             // 
             // btnDelayReducation
             // 
+            this.btnDelayReducation.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDelayReducation.FlatAppearance.BorderSize = 0;
+            this.btnDelayReducation.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.btnDelayReducation.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.btnDelayReducation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelayReducation.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnDelayReducation.ForeColor = System.Drawing.Color.White;
@@ -125,10 +152,10 @@ namespace fpsbooster.Forms
             this.bunifuGradientPanel2.Controls.Add(this.btndvr1off);
             this.bunifuGradientPanel2.Controls.Add(this.label2);
             this.bunifuGradientPanel2.Controls.Add(this.pictureBox2);
-            this.bunifuGradientPanel2.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(92)))), ((int)(((byte)(188)))));
-            this.bunifuGradientPanel2.GradientBottomRight = System.Drawing.Color.DeepPink;
-            this.bunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.DodgerBlue;
-            this.bunifuGradientPanel2.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(60)))), ((int)(((byte)(212)))));
+            this.bunifuGradientPanel2.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel2.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel2.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.bunifuGradientPanel2.Location = new System.Drawing.Point(213, 57);
             this.bunifuGradientPanel2.Name = "bunifuGradientPanel2";
             this.bunifuGradientPanel2.Quality = 10;
@@ -137,7 +164,10 @@ namespace fpsbooster.Forms
             // 
             // btndvr1off
             // 
+            this.btndvr1off.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btndvr1off.FlatAppearance.BorderSize = 0;
+            this.btndvr1off.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.btndvr1off.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.btndvr1off.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btndvr1off.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btndvr1off.ForeColor = System.Drawing.Color.White;
@@ -185,10 +215,10 @@ namespace fpsbooster.Forms
             this.bunifuGradientPanel3.Controls.Add(this.btndvr2off);
             this.bunifuGradientPanel3.Controls.Add(this.label3);
             this.bunifuGradientPanel3.Controls.Add(this.pictureBox3);
-            this.bunifuGradientPanel3.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(92)))), ((int)(((byte)(188)))));
-            this.bunifuGradientPanel3.GradientBottomRight = System.Drawing.Color.DeepPink;
-            this.bunifuGradientPanel3.GradientTopLeft = System.Drawing.Color.DodgerBlue;
-            this.bunifuGradientPanel3.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(60)))), ((int)(((byte)(212)))));
+            this.bunifuGradientPanel3.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel3.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel3.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel3.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.bunifuGradientPanel3.Location = new System.Drawing.Point(381, 57);
             this.bunifuGradientPanel3.Name = "bunifuGradientPanel3";
             this.bunifuGradientPanel3.Quality = 10;
@@ -197,7 +227,10 @@ namespace fpsbooster.Forms
             // 
             // btndvr2off
             // 
+            this.btndvr2off.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btndvr2off.FlatAppearance.BorderSize = 0;
+            this.btndvr2off.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.btndvr2off.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.btndvr2off.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btndvr2off.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btndvr2off.ForeColor = System.Drawing.Color.White;
@@ -245,10 +278,10 @@ namespace fpsbooster.Forms
             this.bunifuGradientPanel4.Controls.Add(this.btnGameOptimization);
             this.bunifuGradientPanel4.Controls.Add(this.label4);
             this.bunifuGradientPanel4.Controls.Add(this.pictureBox4);
-            this.bunifuGradientPanel4.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(92)))), ((int)(((byte)(188)))));
-            this.bunifuGradientPanel4.GradientBottomRight = System.Drawing.Color.DeepPink;
-            this.bunifuGradientPanel4.GradientTopLeft = System.Drawing.Color.DodgerBlue;
-            this.bunifuGradientPanel4.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(60)))), ((int)(((byte)(212)))));
+            this.bunifuGradientPanel4.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel4.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel4.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel4.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.bunifuGradientPanel4.Location = new System.Drawing.Point(550, 57);
             this.bunifuGradientPanel4.Name = "bunifuGradientPanel4";
             this.bunifuGradientPanel4.Quality = 10;
@@ -257,7 +290,10 @@ namespace fpsbooster.Forms
             // 
             // btnGameOptimization
             // 
+            this.btnGameOptimization.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGameOptimization.FlatAppearance.BorderSize = 0;
+            this.btnGameOptimization.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.btnGameOptimization.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.btnGameOptimization.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGameOptimization.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGameOptimization.ForeColor = System.Drawing.Color.White;
@@ -296,12 +332,268 @@ namespace fpsbooster.Forms
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
+            // bunifuGradientPanel5
+            // 
+            this.bunifuGradientPanel5.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuGradientPanel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel5.BackgroundImage")));
+            this.bunifuGradientPanel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel5.BorderRadius = 50;
+            this.bunifuGradientPanel5.Controls.Add(this.ıconButton1);
+            this.bunifuGradientPanel5.Controls.Add(this.label5);
+            this.bunifuGradientPanel5.Controls.Add(this.pictureBox5);
+            this.bunifuGradientPanel5.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel5.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel5.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel5.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel5.Location = new System.Drawing.Point(43, 250);
+            this.bunifuGradientPanel5.Name = "bunifuGradientPanel5";
+            this.bunifuGradientPanel5.Quality = 10;
+            this.bunifuGradientPanel5.Size = new System.Drawing.Size(143, 132);
+            this.bunifuGradientPanel5.TabIndex = 0;
+            // 
+            // ıconButton1
+            // 
+            this.ıconButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ıconButton1.FlatAppearance.BorderSize = 0;
+            this.ıconButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.ıconButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.ıconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ıconButton1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ıconButton1.ForeColor = System.Drawing.Color.White;
+            this.ıconButton1.IconChar = FontAwesome.Sharp.IconChar.Times;
+            this.ıconButton1.IconColor = System.Drawing.Color.White;
+            this.ıconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.ıconButton1.IconSize = 25;
+            this.ıconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ıconButton1.Location = new System.Drawing.Point(27, 84);
+            this.ıconButton1.Name = "ıconButton1";
+            this.ıconButton1.Size = new System.Drawing.Size(89, 32);
+            this.ıconButton1.TabIndex = 1;
+            this.ıconButton1.Text = "Closed";
+            this.ıconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.ıconButton1.UseVisualStyleBackColor = true;
+            this.ıconButton1.Click += new System.EventHandler(this.btnCloseDefender_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(10, 64);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(126, 17);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Defender Shutdown";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::fpsbooster.Properties.Resources.regedit;
+            this.pictureBox5.Location = new System.Drawing.Point(51, 15);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(38, 36);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            // 
+            // bunifuGradientPanel6
+            // 
+            this.bunifuGradientPanel6.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuGradientPanel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel6.BackgroundImage")));
+            this.bunifuGradientPanel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel6.BorderRadius = 50;
+            this.bunifuGradientPanel6.Controls.Add(this.btnLowSystemFix);
+            this.bunifuGradientPanel6.Controls.Add(this.label6);
+            this.bunifuGradientPanel6.Controls.Add(this.pictureBox6);
+            this.bunifuGradientPanel6.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel6.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel6.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel6.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel6.Location = new System.Drawing.Point(213, 250);
+            this.bunifuGradientPanel6.Name = "bunifuGradientPanel6";
+            this.bunifuGradientPanel6.Quality = 10;
+            this.bunifuGradientPanel6.Size = new System.Drawing.Size(143, 132);
+            this.bunifuGradientPanel6.TabIndex = 0;
+            // 
+            // btnLowSystemFix
+            // 
+            this.btnLowSystemFix.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLowSystemFix.FlatAppearance.BorderSize = 0;
+            this.btnLowSystemFix.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.btnLowSystemFix.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.btnLowSystemFix.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLowSystemFix.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnLowSystemFix.ForeColor = System.Drawing.Color.White;
+            this.btnLowSystemFix.IconChar = FontAwesome.Sharp.IconChar.Times;
+            this.btnLowSystemFix.IconColor = System.Drawing.Color.White;
+            this.btnLowSystemFix.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnLowSystemFix.IconSize = 25;
+            this.btnLowSystemFix.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLowSystemFix.Location = new System.Drawing.Point(27, 84);
+            this.btnLowSystemFix.Name = "btnLowSystemFix";
+            this.btnLowSystemFix.Size = new System.Drawing.Size(89, 32);
+            this.btnLowSystemFix.TabIndex = 1;
+            this.btnLowSystemFix.Text = "Closed";
+            this.btnLowSystemFix.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnLowSystemFix.UseVisualStyleBackColor = true;
+            this.btnLowSystemFix.Click += new System.EventHandler(this.btnLowSystemFix_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(24, 64);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(95, 17);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Low System Fix";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::fpsbooster.Properties.Resources.regedit;
+            this.pictureBox6.Location = new System.Drawing.Point(51, 15);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(38, 36);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
+            // bunifuGradientPanel7
+            // 
+            this.bunifuGradientPanel7.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuGradientPanel7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel7.BackgroundImage")));
+            this.bunifuGradientPanel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel7.BorderRadius = 50;
+            this.bunifuGradientPanel7.Controls.Add(this.btnFullscreenFix);
+            this.bunifuGradientPanel7.Controls.Add(this.label7);
+            this.bunifuGradientPanel7.Controls.Add(this.pictureBox7);
+            this.bunifuGradientPanel7.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel7.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel7.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel7.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel7.Location = new System.Drawing.Point(381, 250);
+            this.bunifuGradientPanel7.Name = "bunifuGradientPanel7";
+            this.bunifuGradientPanel7.Quality = 10;
+            this.bunifuGradientPanel7.Size = new System.Drawing.Size(143, 132);
+            this.bunifuGradientPanel7.TabIndex = 0;
+            // 
+            // btnFullscreenFix
+            // 
+            this.btnFullscreenFix.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFullscreenFix.FlatAppearance.BorderSize = 0;
+            this.btnFullscreenFix.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.btnFullscreenFix.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.btnFullscreenFix.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFullscreenFix.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnFullscreenFix.ForeColor = System.Drawing.Color.White;
+            this.btnFullscreenFix.IconChar = FontAwesome.Sharp.IconChar.Times;
+            this.btnFullscreenFix.IconColor = System.Drawing.Color.White;
+            this.btnFullscreenFix.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnFullscreenFix.IconSize = 25;
+            this.btnFullscreenFix.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFullscreenFix.Location = new System.Drawing.Point(27, 84);
+            this.btnFullscreenFix.Name = "btnFullscreenFix";
+            this.btnFullscreenFix.Size = new System.Drawing.Size(89, 32);
+            this.btnFullscreenFix.TabIndex = 1;
+            this.btnFullscreenFix.Text = "Closed";
+            this.btnFullscreenFix.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnFullscreenFix.UseVisualStyleBackColor = true;
+            this.btnFullscreenFix.Click += new System.EventHandler(this.btnFullscreenFix_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(24, 64);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(90, 17);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Full Screen Fix";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::fpsbooster.Properties.Resources.regedit;
+            this.pictureBox7.Location = new System.Drawing.Point(51, 15);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(38, 36);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
+            // 
+            // bunifuGradientPanel8
+            // 
+            this.bunifuGradientPanel8.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuGradientPanel8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel8.BackgroundImage")));
+            this.bunifuGradientPanel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel8.BorderRadius = 50;
+            this.bunifuGradientPanel8.Controls.Add(this.btnWindowsOptimization);
+            this.bunifuGradientPanel8.Controls.Add(this.label8);
+            this.bunifuGradientPanel8.Controls.Add(this.pictureBox8);
+            this.bunifuGradientPanel8.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel8.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel8.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel8.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.bunifuGradientPanel8.Location = new System.Drawing.Point(550, 250);
+            this.bunifuGradientPanel8.Name = "bunifuGradientPanel8";
+            this.bunifuGradientPanel8.Quality = 10;
+            this.bunifuGradientPanel8.Size = new System.Drawing.Size(143, 132);
+            this.bunifuGradientPanel8.TabIndex = 0;
+            // 
+            // btnWindowsOptimization
+            // 
+            this.btnWindowsOptimization.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnWindowsOptimization.FlatAppearance.BorderSize = 0;
+            this.btnWindowsOptimization.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.btnWindowsOptimization.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.btnWindowsOptimization.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWindowsOptimization.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnWindowsOptimization.ForeColor = System.Drawing.Color.White;
+            this.btnWindowsOptimization.IconChar = FontAwesome.Sharp.IconChar.Times;
+            this.btnWindowsOptimization.IconColor = System.Drawing.Color.White;
+            this.btnWindowsOptimization.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnWindowsOptimization.IconSize = 25;
+            this.btnWindowsOptimization.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnWindowsOptimization.Location = new System.Drawing.Point(27, 84);
+            this.btnWindowsOptimization.Name = "btnWindowsOptimization";
+            this.btnWindowsOptimization.Size = new System.Drawing.Size(89, 32);
+            this.btnWindowsOptimization.TabIndex = 1;
+            this.btnWindowsOptimization.Text = "Closed";
+            this.btnWindowsOptimization.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnWindowsOptimization.UseVisualStyleBackColor = true;
+            this.btnWindowsOptimization.Click += new System.EventHandler(this.btnWindowsOptimization_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(2, 64);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(141, 17);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Windows Optimization";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::fpsbooster.Properties.Resources.regedit;
+            this.pictureBox8.Location = new System.Drawing.Point(51, 15);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(38, 36);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 0;
+            this.pictureBox8.TabStop = false;
+            // 
             // FormRegeditManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(25)))), ((int)(((byte)(53)))));
             this.ClientSize = new System.Drawing.Size(731, 443);
+            this.Controls.Add(this.bunifuGradientPanel8);
+            this.Controls.Add(this.bunifuGradientPanel7);
+            this.Controls.Add(this.bunifuGradientPanel6);
+            this.Controls.Add(this.bunifuGradientPanel5);
             this.Controls.Add(this.bunifuGradientPanel4);
             this.Controls.Add(this.bunifuGradientPanel3);
             this.Controls.Add(this.bunifuGradientPanel2);
@@ -320,6 +612,18 @@ namespace fpsbooster.Forms
             this.bunifuGradientPanel4.ResumeLayout(false);
             this.bunifuGradientPanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.bunifuGradientPanel5.ResumeLayout(false);
+            this.bunifuGradientPanel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.bunifuGradientPanel6.ResumeLayout(false);
+            this.bunifuGradientPanel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.bunifuGradientPanel7.ResumeLayout(false);
+            this.bunifuGradientPanel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.bunifuGradientPanel8.ResumeLayout(false);
+            this.bunifuGradientPanel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -342,5 +646,21 @@ namespace fpsbooster.Forms
         private FontAwesome.Sharp.IconButton btnGameOptimization;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private Bunifu.UI.WinForms.BunifuGradientPanel bunifuGradientPanel5;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private FontAwesome.Sharp.IconButton ıconButton1;
+        private Bunifu.UI.WinForms.BunifuGradientPanel bunifuGradientPanel6;
+        private FontAwesome.Sharp.IconButton btnLowSystemFix;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private Bunifu.UI.WinForms.BunifuGradientPanel bunifuGradientPanel7;
+        private FontAwesome.Sharp.IconButton btnFullscreenFix;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private Bunifu.UI.WinForms.BunifuGradientPanel bunifuGradientPanel8;
+        private FontAwesome.Sharp.IconButton btnWindowsOptimization;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.PictureBox pictureBox8;
     }
 }
