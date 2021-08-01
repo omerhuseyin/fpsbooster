@@ -16,5 +16,16 @@ namespace fpsbooster.Forms
         {
             InitializeComponent();
         }
+
+        private void FormFileManager_Load(object sender, EventArgs e)
+        {
+            controller.Start();
+        }
+
+        private void controller_Tick(object sender, EventArgs e)
+        {
+            float disk = perfHD.NextValue();
+            progressHD.Value = (int)disk;
+        }
     }
 }
