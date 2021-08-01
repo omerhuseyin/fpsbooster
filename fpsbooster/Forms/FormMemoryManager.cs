@@ -81,7 +81,7 @@ namespace fpsbooster.Forms
                 }
                 else
                 {
-                    ramStatusBar.ProgressColor = Color.Yellow;
+                    ramStatusBar.ProgressColor = Color.Red;
                 }
             }
             catch (Exception ex)

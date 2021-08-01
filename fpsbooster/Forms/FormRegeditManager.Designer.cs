@@ -47,7 +47,7 @@ namespace fpsbooster.Forms
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.bunifuGradientPanel5 = new Bunifu.UI.WinForms.BunifuGradientPanel();
-            this.ıconButton1 = new FontAwesome.Sharp.IconButton();
+            this.btnCloseDefender = new FontAwesome.Sharp.IconButton();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.bunifuGradientPanel6 = new Bunifu.UI.WinForms.BunifuGradientPanel();
@@ -108,7 +108,7 @@ namespace fpsbooster.Forms
             this.btnDelayReducation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelayReducation.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnDelayReducation.ForeColor = System.Drawing.Color.White;
-            this.btnDelayReducation.IconChar = FontAwesome.Sharp.IconChar.Times;
+            this.btnDelayReducation.IconChar = FontAwesome.Sharp.IconChar.Lock;
             this.btnDelayReducation.IconColor = System.Drawing.Color.White;
             this.btnDelayReducation.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnDelayReducation.IconSize = 25;
@@ -171,7 +171,7 @@ namespace fpsbooster.Forms
             this.btndvr1off.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btndvr1off.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btndvr1off.ForeColor = System.Drawing.Color.White;
-            this.btndvr1off.IconChar = FontAwesome.Sharp.IconChar.Times;
+            this.btndvr1off.IconChar = FontAwesome.Sharp.IconChar.Lock;
             this.btndvr1off.IconColor = System.Drawing.Color.White;
             this.btndvr1off.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btndvr1off.IconSize = 25;
@@ -234,7 +234,7 @@ namespace fpsbooster.Forms
             this.btndvr2off.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btndvr2off.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btndvr2off.ForeColor = System.Drawing.Color.White;
-            this.btndvr2off.IconChar = FontAwesome.Sharp.IconChar.Times;
+            this.btndvr2off.IconChar = FontAwesome.Sharp.IconChar.Lock;
             this.btndvr2off.IconColor = System.Drawing.Color.White;
             this.btndvr2off.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btndvr2off.IconSize = 25;
@@ -297,7 +297,7 @@ namespace fpsbooster.Forms
             this.btnGameOptimization.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGameOptimization.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGameOptimization.ForeColor = System.Drawing.Color.White;
-            this.btnGameOptimization.IconChar = FontAwesome.Sharp.IconChar.Times;
+            this.btnGameOptimization.IconChar = FontAwesome.Sharp.IconChar.Lock;
             this.btnGameOptimization.IconColor = System.Drawing.Color.White;
             this.btnGameOptimization.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnGameOptimization.IconSize = 25;
@@ -338,7 +338,7 @@ namespace fpsbooster.Forms
             this.bunifuGradientPanel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel5.BackgroundImage")));
             this.bunifuGradientPanel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuGradientPanel5.BorderRadius = 50;
-            this.bunifuGradientPanel5.Controls.Add(this.ıconButton1);
+            this.bunifuGradientPanel5.Controls.Add(this.btnCloseDefender);
             this.bunifuGradientPanel5.Controls.Add(this.label5);
             this.bunifuGradientPanel5.Controls.Add(this.pictureBox5);
             this.bunifuGradientPanel5.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
@@ -351,28 +351,28 @@ namespace fpsbooster.Forms
             this.bunifuGradientPanel5.Size = new System.Drawing.Size(143, 132);
             this.bunifuGradientPanel5.TabIndex = 0;
             // 
-            // ıconButton1
+            // btnCloseDefender
             // 
-            this.ıconButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ıconButton1.FlatAppearance.BorderSize = 0;
-            this.ıconButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.ıconButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.ıconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ıconButton1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ıconButton1.ForeColor = System.Drawing.Color.White;
-            this.ıconButton1.IconChar = FontAwesome.Sharp.IconChar.Times;
-            this.ıconButton1.IconColor = System.Drawing.Color.White;
-            this.ıconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.ıconButton1.IconSize = 25;
-            this.ıconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ıconButton1.Location = new System.Drawing.Point(27, 84);
-            this.ıconButton1.Name = "ıconButton1";
-            this.ıconButton1.Size = new System.Drawing.Size(89, 32);
-            this.ıconButton1.TabIndex = 1;
-            this.ıconButton1.Text = "Closed";
-            this.ıconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.ıconButton1.UseVisualStyleBackColor = true;
-            this.ıconButton1.Click += new System.EventHandler(this.btnCloseDefender_Click);
+            this.btnCloseDefender.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCloseDefender.FlatAppearance.BorderSize = 0;
+            this.btnCloseDefender.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.btnCloseDefender.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.btnCloseDefender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCloseDefender.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCloseDefender.ForeColor = System.Drawing.Color.White;
+            this.btnCloseDefender.IconChar = FontAwesome.Sharp.IconChar.Lock;
+            this.btnCloseDefender.IconColor = System.Drawing.Color.White;
+            this.btnCloseDefender.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnCloseDefender.IconSize = 25;
+            this.btnCloseDefender.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCloseDefender.Location = new System.Drawing.Point(27, 84);
+            this.btnCloseDefender.Name = "btnCloseDefender";
+            this.btnCloseDefender.Size = new System.Drawing.Size(89, 32);
+            this.btnCloseDefender.TabIndex = 1;
+            this.btnCloseDefender.Text = "Closed";
+            this.btnCloseDefender.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCloseDefender.UseVisualStyleBackColor = true;
+            this.btnCloseDefender.Click += new System.EventHandler(this.btnCloseDefender_Click);
             // 
             // label5
             // 
@@ -423,7 +423,7 @@ namespace fpsbooster.Forms
             this.btnLowSystemFix.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLowSystemFix.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnLowSystemFix.ForeColor = System.Drawing.Color.White;
-            this.btnLowSystemFix.IconChar = FontAwesome.Sharp.IconChar.Times;
+            this.btnLowSystemFix.IconChar = FontAwesome.Sharp.IconChar.Lock;
             this.btnLowSystemFix.IconColor = System.Drawing.Color.White;
             this.btnLowSystemFix.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLowSystemFix.IconSize = 25;
@@ -486,7 +486,7 @@ namespace fpsbooster.Forms
             this.btnFullscreenFix.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFullscreenFix.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnFullscreenFix.ForeColor = System.Drawing.Color.White;
-            this.btnFullscreenFix.IconChar = FontAwesome.Sharp.IconChar.Times;
+            this.btnFullscreenFix.IconChar = FontAwesome.Sharp.IconChar.Lock;
             this.btnFullscreenFix.IconColor = System.Drawing.Color.White;
             this.btnFullscreenFix.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnFullscreenFix.IconSize = 25;
@@ -549,7 +549,7 @@ namespace fpsbooster.Forms
             this.btnWindowsOptimization.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnWindowsOptimization.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnWindowsOptimization.ForeColor = System.Drawing.Color.White;
-            this.btnWindowsOptimization.IconChar = FontAwesome.Sharp.IconChar.Times;
+            this.btnWindowsOptimization.IconChar = FontAwesome.Sharp.IconChar.Lock;
             this.btnWindowsOptimization.IconColor = System.Drawing.Color.White;
             this.btnWindowsOptimization.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnWindowsOptimization.IconSize = 25;
@@ -600,6 +600,7 @@ namespace fpsbooster.Forms
             this.Controls.Add(this.bunifuGradientPanel1);
             this.Name = "FormRegeditManager";
             this.Text = "Kayıt Defteri";
+            this.Load += new System.EventHandler(this.FormRegeditManager_Load);
             this.bunifuGradientPanel1.ResumeLayout(false);
             this.bunifuGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -649,7 +650,7 @@ namespace fpsbooster.Forms
         private Bunifu.UI.WinForms.BunifuGradientPanel bunifuGradientPanel5;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private FontAwesome.Sharp.IconButton ıconButton1;
+        private FontAwesome.Sharp.IconButton btnCloseDefender;
         private Bunifu.UI.WinForms.BunifuGradientPanel bunifuGradientPanel6;
         private FontAwesome.Sharp.IconButton btnLowSystemFix;
         private System.Windows.Forms.Label label6;
