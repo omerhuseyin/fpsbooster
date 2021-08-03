@@ -123,9 +123,10 @@ namespace fpsbooster.Forms
             this.cpuStatusBar.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
             this.cpuStatusBar.SuperScriptText = "%";
             this.cpuStatusBar.TabIndex = 16;
-            this.cpuStatusBar.Text = "0";
+            this.cpuStatusBar.Text = "30";
             this.cpuStatusBar.TextMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.cpuStatusBar.ValueByTransition = 0;
+            this.cpuStatusBar.Value = 30;
+            this.cpuStatusBar.ValueByTransition = 30;
             this.cpuStatusBar.ValueMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             // 
             // PCPU
@@ -169,9 +170,10 @@ namespace fpsbooster.Forms
             this.ramStatusBar.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
             this.ramStatusBar.SuperScriptText = "%";
             this.ramStatusBar.TabIndex = 16;
-            this.ramStatusBar.Text = "0";
+            this.ramStatusBar.Text = "30";
             this.ramStatusBar.TextMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.ramStatusBar.ValueByTransition = 0;
+            this.ramStatusBar.Value = 30;
+            this.ramStatusBar.ValueByTransition = 30;
             this.ramStatusBar.ValueMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             // 
             // label4

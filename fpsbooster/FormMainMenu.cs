@@ -11,6 +11,7 @@ using FontAwesome.Sharp;
 using System.IO;
 using System.Runtime.InteropServices;
 using fpsbooster.Forms;
+using Microsoft.Win32;
 
 namespace fpsbooster
 {
@@ -209,6 +210,10 @@ namespace fpsbooster
         private void btnMinimize_Click_1(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void FormMainMenu_Load(object sender, EventArgs e)
+        {
         }
     }
 }

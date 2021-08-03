@@ -46,7 +46,6 @@ namespace fpsbooster.Forms
 
         private PerformanceCounter perfMemoryCounter = new PerformanceCounter("Memory", "Available MBytes");
         private PerformanceCounter perfSystemCounter = new PerformanceCounter("System", "System Up Time");
-        private int warnCount;
 
         private void FormMemoryManager_Load(object sender, EventArgs e)
         {

@@ -32,14 +32,15 @@ namespace fpsbooster
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainMenu));
             this.panelTitleBar = new System.Windows.Forms.Panel();
+            this.btnMinimize = new FontAwesome.Sharp.IconPictureBox();
+            this.btnExit = new FontAwesome.Sharp.IconPictureBox();
             this.lblTitleChildForm = new System.Windows.Forms.Label();
+            this.iconCurrentChildForm = new FontAwesome.Sharp.IconPictureBox();
             this.panelShadow = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.elipseForm = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.btnMinimize = new FontAwesome.Sharp.IconPictureBox();
-            this.btnExit = new FontAwesome.Sharp.IconPictureBox();
-            this.iconCurrentChildForm = new FontAwesome.Sharp.IconPictureBox();
             this.panelMenu = new Bunifu.UI.WinForms.BunifuPanel();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSoftwareInformation = new FontAwesome.Sharp.IconButton();
             this.btnSystemInformation = new FontAwesome.Sharp.IconButton();
@@ -49,7 +50,6 @@ namespace fpsbooster
             this.btnMemoryManager = new FontAwesome.Sharp.IconButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnMainMenu = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.panelTitleBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
@@ -73,40 +73,6 @@ namespace fpsbooster
             this.panelTitleBar.Size = new System.Drawing.Size(747, 59);
             this.panelTitleBar.TabIndex = 1;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
-            // 
-            // lblTitleChildForm
-            // 
-            this.lblTitleChildForm.AutoSize = true;
-            this.lblTitleChildForm.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblTitleChildForm.ForeColor = System.Drawing.Color.White;
-            this.lblTitleChildForm.Location = new System.Drawing.Point(56, 19);
-            this.lblTitleChildForm.Name = "lblTitleChildForm";
-            this.lblTitleChildForm.Size = new System.Drawing.Size(72, 17);
-            this.lblTitleChildForm.TabIndex = 1;
-            this.lblTitleChildForm.Text = "Ana Sayfa";
-            // 
-            // panelShadow
-            // 
-            this.panelShadow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(147)))), ((int)(((byte)(43)))));
-            this.panelShadow.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelShadow.Location = new System.Drawing.Point(195, 59);
-            this.panelShadow.Name = "panelShadow";
-            this.panelShadow.Size = new System.Drawing.Size(747, 5);
-            this.panelShadow.TabIndex = 2;
-            // 
-            // panelDesktop
-            // 
-            this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(25)))), ((int)(((byte)(53)))));
-            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(195, 64);
-            this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(747, 482);
-            this.panelDesktop.TabIndex = 3;
-            // 
-            // elipseForm
-            // 
-            this.elipseForm.ElipseRadius = 15;
-            this.elipseForm.TargetControl = this;
             // 
             // btnMinimize
             // 
@@ -138,6 +104,17 @@ namespace fpsbooster
             this.btnExit.TabStop = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
             // 
+            // lblTitleChildForm
+            // 
+            this.lblTitleChildForm.AutoSize = true;
+            this.lblTitleChildForm.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblTitleChildForm.ForeColor = System.Drawing.Color.White;
+            this.lblTitleChildForm.Location = new System.Drawing.Point(56, 19);
+            this.lblTitleChildForm.Name = "lblTitleChildForm";
+            this.lblTitleChildForm.Size = new System.Drawing.Size(72, 17);
+            this.lblTitleChildForm.TabIndex = 1;
+            this.lblTitleChildForm.Text = "Ana Sayfa";
+            // 
             // iconCurrentChildForm
             // 
             this.iconCurrentChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(25)))), ((int)(((byte)(53)))));
@@ -150,6 +127,29 @@ namespace fpsbooster
             this.iconCurrentChildForm.Size = new System.Drawing.Size(32, 32);
             this.iconCurrentChildForm.TabIndex = 0;
             this.iconCurrentChildForm.TabStop = false;
+            // 
+            // panelShadow
+            // 
+            this.panelShadow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(147)))), ((int)(((byte)(43)))));
+            this.panelShadow.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelShadow.Location = new System.Drawing.Point(195, 59);
+            this.panelShadow.Name = "panelShadow";
+            this.panelShadow.Size = new System.Drawing.Size(747, 5);
+            this.panelShadow.TabIndex = 2;
+            // 
+            // panelDesktop
+            // 
+            this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(25)))), ((int)(((byte)(53)))));
+            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDesktop.Location = new System.Drawing.Point(195, 64);
+            this.panelDesktop.Name = "panelDesktop";
+            this.panelDesktop.Size = new System.Drawing.Size(747, 482);
+            this.panelDesktop.TabIndex = 3;
+            // 
+            // elipseForm
+            // 
+            this.elipseForm.ElipseRadius = 15;
+            this.elipseForm.TargetControl = this;
             // 
             // panelMenu
             // 
@@ -174,6 +174,18 @@ namespace fpsbooster
             this.panelMenu.ShowBorders = true;
             this.panelMenu.Size = new System.Drawing.Size(195, 546);
             this.panelMenu.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(20, 511);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(134, 16);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "coded by laweis | v0.1";
             // 
             // pictureBox1
             // 
@@ -367,18 +379,6 @@ namespace fpsbooster
             this.btnMainMenu.TabIndex = 0;
             this.btnMainMenu.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(20, 511);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(134, 16);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "coded by laweis | v0.1";
-            // 
             // FormMainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -394,6 +394,7 @@ namespace fpsbooster
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Tag = "";
             this.Text = "Ana Menü";
+            this.Load += new System.EventHandler(this.FormMainMenu_Load);
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).EndInit();
