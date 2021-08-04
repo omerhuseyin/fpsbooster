@@ -145,7 +145,7 @@ namespace fpsbooster.Forms
             if (CloseDefender % 2 == 0)
             {
                 registryKey.SetValue("DisableAntiSpyware", 1, RegistryValueKind.DWord);
-                registryKey.Close();
+                //        registryKey.Close();
 
                 btnCloseDefender.Text = "Closed";
                 btnCloseDefender.IconChar = FontAwesome.Sharp.IconChar.Lock;
@@ -153,7 +153,7 @@ namespace fpsbooster.Forms
             else
             {
                 registryKey.SetValue("DisableAntiSpyware", 0, RegistryValueKind.DWord);
-                registryKey.Close();
+                //      registryKey.Close();
 
                 btnCloseDefender.Text = "Open";
                 btnCloseDefender.IconChar = FontAwesome.Sharp.IconChar.LockOpen;
@@ -250,10 +250,10 @@ namespace fpsbooster.Forms
                 registryKeyKernel.SetValue("KernelSEHOPEnabled", 0, RegistryValueKind.DWord);
                 registryKeyKernel.Close();
 
-                registryKeyKernel.SetValue("DisableAntiSpyware", 1, RegistryValueKind.DWord);
-                registryKeyKernel.SetValue("DisableRoutinelyTakingAction", 1, RegistryValueKind.DWord);
-                registryKeyKernel.SetValue("ServiceKeepAlive", 0, RegistryValueKind.DWord);
-                registryKeyKernel.Close();
+                registryKeyDefender.SetValue("DisableAntiSpyware", 1, RegistryValueKind.DWord);
+                registryKeyDefender.SetValue("DisableRoutinelyTakingAction", 1, RegistryValueKind.DWord);
+                registryKeyDefender.SetValue("ServiceKeepAlive", 0, RegistryValueKind.DWord);
+                registryKeyDefender.Close();
 
                 btnWindowsOptimization.Text = "Closed";
                 btnWindowsOptimization.IconChar = FontAwesome.Sharp.IconChar.Lock;
@@ -273,18 +273,14 @@ namespace fpsbooster.Forms
                 registryKeyKernel.SetValue("KernelSEHOPEnabled", 0, RegistryValueKind.DWord);
                 registryKeyKernel.Close();
 
-                registryKeyKernel.SetValue("DisableAntiSpyware", 1, RegistryValueKind.DWord);
-                registryKeyKernel.SetValue("DisableRoutinelyTakingAction", 1, RegistryValueKind.DWord);
-                registryKeyKernel.SetValue("ServiceKeepAlive", 0, RegistryValueKind.DWord);
-                registryKeyKernel.Close();
+                registryKeyDefender.SetValue("DisableAntiSpyware", 1, RegistryValueKind.DWord);
+                registryKeyDefender.SetValue("DisableRoutinelyTakingAction", 1, RegistryValueKind.DWord);
+                registryKeyDefender.SetValue("ServiceKeepAlive", 0, RegistryValueKind.DWord);
+                registryKeyDefender.Close();
 
                 btnWindowsOptimization.Text = "Open";
                 btnWindowsOptimization.IconChar = FontAwesome.Sharp.IconChar.LockOpen;
             }
-        }
-
-        private void FormRegeditManager_Load(object sender, EventArgs e)
-        {
         }
     }
 }

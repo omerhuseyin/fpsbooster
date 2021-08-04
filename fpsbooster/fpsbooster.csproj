@@ -202,6 +202,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\gradient.gif" />
+    <None Include="Resources\opensource.png" />
+    <None Include="Resources\steam.png" />
     <None Include="Resources\regedit.png" />
     <None Include="app.manifest" />
     <None Include="Resources\cleanramico1.png" />

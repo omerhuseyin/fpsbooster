@@ -16,5 +16,9 @@ namespace fpsbooster.Forms
         {
             InitializeComponent();
         }
+
+        private void FormWindowsManager_Load(object sender, EventArgs e)
+        {
+        }
     }
 }

@@ -40,7 +40,7 @@ namespace fpsbooster.Forms
             // perfHD
             // 
             this.perfHD.CategoryName = "LogicalDisk";
-            this.perfHD.CounterName = "% Maximum Space";
+            this.perfHD.CounterName = "% Free Space";
             this.perfHD.InstanceName = "_Total";
             // 
             // progressHD
@@ -55,7 +55,7 @@ namespace fpsbooster.Forms
             this.progressHD.IsPercentage = false;
             this.progressHD.LineProgressThickness = 10;
             this.progressHD.LineThickness = 10;
-            this.progressHD.Location = new System.Drawing.Point(62, 99);
+            this.progressHD.Location = new System.Drawing.Point(297, 139);
             this.progressHD.Name = "progressHD";
             this.progressHD.ProgressAnimationSpeed = 200;
             this.progressHD.ProgressBackColor = System.Drawing.Color.Gainsboro;
@@ -73,16 +73,17 @@ namespace fpsbooster.Forms
             this.progressHD.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
             this.progressHD.SuperScriptText = "%";
             this.progressHD.TabIndex = 16;
-            this.progressHD.Text = "0";
+            this.progressHD.Text = "30";
             this.progressHD.TextMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.progressHD.ValueByTransition = 0;
+            this.progressHD.Value = 30;
+            this.progressHD.ValueByTransition = 30;
             this.progressHD.ValueMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(109, 73);
+            this.label1.Location = new System.Drawing.Point(344, 113);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 17;

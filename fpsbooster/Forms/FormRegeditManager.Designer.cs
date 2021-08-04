@@ -600,7 +600,7 @@ namespace fpsbooster.Forms
             this.Controls.Add(this.bunifuGradientPanel1);
             this.Name = "FormRegeditManager";
             this.Text = "Kayıt Defteri";
-            this.Load += new System.EventHandler(this.FormRegeditManager_Load);
+//            this.Load += new System.EventHandler(this.FormRegeditManager_Load);
             this.bunifuGradientPanel1.ResumeLayout(false);
             this.bunifuGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
