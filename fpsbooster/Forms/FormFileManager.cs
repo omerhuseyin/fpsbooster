@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,8 +25,14 @@ namespace fpsbooster.Forms
 
         private void controller_Tick(object sender, EventArgs e)
         {
-            float disk = perfHD.NextValue();
-            progressHD.Value = (int)disk;
+            foreach (DriveInfo disk in DriveInfo.GetDrives())
+            {
+                lblDisk.Text = disk.Name;
+                if (disk.IsReady)
+                {
+                    lblTotalSpace.Text = (disk.TotalSize / (1024 * 1024)).ToString() + "GB";
+                }
+            }
         }
     }
 }

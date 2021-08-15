@@ -47,6 +47,10 @@ namespace fpsbooster.Forms
             }
         }
 
+        private void FormRegeditManager_Load(object sender, EventArgs e)
+        {
+        }
+
         private void btndvr1off_Click(object sender, EventArgs e)
         {
             RegistryKey regKeySpecific = RegistryKey.OpenBaseKey(
@@ -179,7 +183,7 @@ namespace fpsbooster.Forms
             }
             else
             {
-                registryKey.SetValue("SystemResponsiveness", 16, RegistryValueKind.DWord);
+                registryKey.SetValue("SystemResponsiveness", 0  , RegistryValueKind.DWord);
                 registryKey.Close();
 
                 btnLowSystemFix.Text = "Open";
